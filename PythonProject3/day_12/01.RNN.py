@@ -12,3 +12,5 @@ def batch_first():
     # batch_size：批量大小
     # hidden_size：隐藏层的特征数
     h0 = torch.randn(2, 2, 256)
+
+    # 输入
