@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#1A1A2E" />
+  
+  <text x="50" y="60" font-family="Arial Black" font-size="34" fill="#FFFFFF" font-weight="bold">封装：私有属性</text>
+  <text x="50" y="95" font-family="Calibri Light" font-size="15" fill="#B0B0C0">保护数据，只能通过公开方法访问 — __ 前缀 = 私有</text>
+
+  
+  <g transform="translate(50,130)">
+    <path fill="#252540" d="M8,0 H552 A8,8 0 0 1 560,8 V492 A8,8 0 0 1 552,500 H8 A8,8 0 0 1 0,492 V8 A8,8 0 0 1 8,0 Z" />
+    <rect x="0" y="0" width="560" height="5" fill="#FF5252" />
+    <text x="30" y="45" font-family="Arial Black" font-size="22" fill="#FF5252">❌ 没有私有 — 危险！</text>
+    
+    <path fill="#141428" d="M34,75 H526 A4,4 0 0 1 530,79 V221 A4,4 0 0 1 526,225 H34 A4,4 0 0 1 30,221 V79 A4,4 0 0 1 34,75 Z" />
+    <text x="50" y="100" font-family="Consolas" font-size="14" fill="#FF5252">stu.money = -999</text>
+    <text x="50" y="125" font-family="Consolas" font-size="14" fill="#FF5252">stu.age = "十八岁"</text>
+    <text x="50" y="150" font-family="Consolas" font-size="14" fill="#666680"># 数据可以被任意篡改！</text>
+    <text x="50" y="175" font-family="Consolas" font-size="14" fill="#666680"># 类型、范围全无保障</text>
+    
+    <circle cx="280" cy="290" r="50" fill="#FF5252" opacity="0.12" />
+    <text x="280" y="305" text-anchor="middle" font-family="Calibri" font-size="40" fill="#FF5252">🔓</text>
+    <text x="280" y="365" text-anchor="middle" font-family="Arial Black" font-size="20" fill="#FF5252">谁都能改</text>
+    <text x="280" y="395" text-anchor="middle" font-family="Calibri Light" font-size="14" fill="#B0B0C0">属性公开 = 无保护</text>
+  </g>
+
+  
+  <circle cx="640" cy="380" r="35" fill="#00BFA5" />
+  <text x="640" y="390" text-anchor="middle" font-family="Calibri" font-size="24" fill="#FFFFFF">→</text>
+
+  
+  <g transform="translate(670,130)">
+    <path fill="#252540" d="M8,0 H552 A8,8 0 0 1 560,8 V492 A8,8 0 0 1 552,500 H8 A8,8 0 0 1 0,492 V8 A8,8 0 0 1 8,0 Z" />
+    <rect x="0" y="0" width="560" height="5" fill="#00BFA5" />
+    <text x="30" y="45" font-family="Arial Black" font-size="22" fill="#00BFA5">✅ 有私有 — 安全！</text>
+    
+    <path fill="#141428" d="M34,75 H526 A4,4 0 0 1 530,79 V221 A4,4 0 0 1 526,225 H34 A4,4 0 0 1 30,221 V79 A4,4 0 0 1 34,75 Z" />
+    <text x="50" y="100" font-family="Consolas" font-size="14" fill="#00BFA5">self.__money = 100</text>
+    <text x="50" y="125" font-family="Consolas" font-size="14" fill="#00BFA5">def get_money(self):</text>
+    <text x="65" y="148" font-family="Consolas" font-size="14" fill="#B0B0C0">return self.__money</text>
+    <text x="50" y="173" font-family="Consolas" font-size="14" fill="#00BFA5">def work(self):</text>
+    <text x="65" y="196" font-family="Consolas" font-size="14" fill="#B0B0C0">self.__money += 1000</text>
+    
+    <circle cx="280" cy="290" r="50" fill="#00BFA5" opacity="0.12" />
+    <text x="280" y="305" text-anchor="middle" font-family="Calibri" font-size="40" fill="#00BFA5">🔒</text>
+    <text x="280" y="365" text-anchor="middle" font-family="Arial Black" font-size="20" fill="#00BFA5">必须通过方法</text>
+    <text x="280" y="395" text-anchor="middle" font-family="Calibri Light" font-size="14" fill="#B0B0C0">get / set 做中转 + 验证</text>
+  </g>
+
+  
+  <path fill="#252540" d="M156,655 H1124 A6,6 0 0 1 1130,661 V694 A6,6 0 0 1 1124,700 H156 A6,6 0 0 1 150,694 V661 A6,6 0 0 1 156,655 Z" />
+  <text x="640" y="684" text-anchor="middle" font-family="Calibri Light" font-size="15" fill="#00BFA5">私有 = 加锁  |  想访问？走公共方法（get/set）  |  数据安全 + 可控</text>
+</svg>

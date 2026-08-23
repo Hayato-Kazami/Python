@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00BFA5" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#00BFA5" stop-opacity="0.02" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="#1A1A2E" />
+  
+  <circle cx="-100" cy="-100" r="350" fill="#00BFA5" opacity="0.04" />
+  <circle cx="1350" cy="600" r="280" fill="#FF6D00" opacity="0.04" />
+  <circle cx="640" cy="250" r="90" fill="none" stroke="#00BFA5" stroke-width="2" opacity="0.3" />
+  
+  <g transform="translate(560,120)">
+    <circle cx="80" cy="80" r="60" fill="#00BFA5" opacity="0.12" />
+    <text x="80" y="95" text-anchor="middle" font-family="Consolas" font-size="48" fill="#00BFA5" font-weight="bold">Py</text>
+  </g>
+  
+  <text x="640" y="370" text-anchor="middle" font-family="Calibri Light" font-size="22" fill="#B0B0C0">从三份代码理解</text>
+  <text x="640" y="430" text-anchor="middle" font-family="Arial Black" font-size="52" fill="#FFFFFF" font-weight="bold">Python 面向对象编程</text>
+  
+  <text x="640" y="485" text-anchor="middle" font-family="Calibri Light" font-size="20" fill="#00BFA5">从「自己干」到「让别人干」</text>
+  
+  <path fill="#252540" d="M243,540 H397 A23,23 0 0 1 420,563 V563 A23,23 0 0 1 397,586 H243 A23,23 0 0 1 220,563 V563 A23,23 0 0 1 243,540 Z" />
+  <text x="320" y="569" text-anchor="middle" font-family="Calibri" font-size="16" fill="#00BFA5">class 设计</text>
+  <text x="460" y="569" text-anchor="middle" font-family="Calibri" font-size="20" fill="#B0B0C0">→</text>
+  <path fill="#252540" d="M523,540 H677 A23,23 0 0 1 700,563 V563 A23,23 0 0 1 677,586 H523 A23,23 0 0 1 500,563 V563 A23,23 0 0 1 523,540 Z" />
+  <text x="600" y="569" text-anchor="middle" font-family="Calibri" font-size="16" fill="#00BFA5">对象 创建</text>
+  <text x="740" y="569" text-anchor="middle" font-family="Calibri" font-size="20" fill="#B0B0C0">→</text>
+  <path fill="#252540" d="M803,540 H957 A23,23 0 0 1 980,563 V563 A23,23 0 0 1 957,586 H803 A23,23 0 0 1 780,563 V563 A23,23 0 0 1 803,540 Z" />
+  <text x="880" y="569" text-anchor="middle" font-family="Calibri" font-size="16" fill="#00BFA5">对象 干活</text>
+  
+  <text x="50" y="695" font-family="Calibri Light" font-size="12" fill="#666680">day_01 课堂重点笔记</text>
+</svg>

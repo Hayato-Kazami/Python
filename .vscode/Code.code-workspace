@@ -1,0 +1,70 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "leetcode",
+			"path": "../leetcode/leetcode"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c",
+			"stdlib.h": "c",
+			"type_traits": "c",
+			"string.h": "c",
+			"ctype.h": "c",
+			"stdbool.h": "c",
+			"concepts": "c",
+			"limits": "c",
+			"cmath": "c",
+			"typeinfo": "c",
+			"readline.h": "c",
+			"limits.h": "c",
+			"wchar.h": "c",
+			"math.h": "c",
+			"random": "c",
+			"iostream": "c",
+			"ostream": "cpp",
+			"array": "cpp",
+			"atomic": "cpp",
+			"bit": "cpp",
+			"*.tcc": "cpp",
+			"cctype": "cpp",
+			"clocale": "cpp",
+			"compare": "cpp",
+			"cstdarg": "cpp",
+			"cstddef": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"deque": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"vector": "cpp",
+			"exception": "cpp",
+			"algorithm": "cpp",
+			"functional": "cpp",
+			"iterator": "cpp",
+			"memory": "cpp",
+			"memory_resource": "cpp",
+			"numeric": "cpp",
+			"string_view": "cpp",
+			"system_error": "cpp",
+			"tuple": "cpp",
+			"utility": "cpp",
+			"initializer_list": "cpp",
+			"iosfwd": "cpp",
+			"istream": "cpp",
+			"new": "cpp",
+			"numbers": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"unistd.h": "c",
+			"malloc.h": "c"
+		}
+	}
+}

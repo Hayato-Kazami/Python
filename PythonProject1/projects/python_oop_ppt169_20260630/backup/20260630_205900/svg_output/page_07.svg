@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#1A1A2E"/>
+  <!-- Title -->
+  <text x="50" y="60" font-family="Arial Black" font-size="34" fill="#FFFFFF" font-weight="bold">核心要点回顾</text>
+
+  <!-- 3 stat cards -->
+  <!-- Card 1 -->
+  <g transform="translate(80,140)">
+    <rect x="0" y="0" width="340" height="280" rx="8" fill="#252540"/>
+    <text x="170" y="90" text-anchor="middle" font-family="Arial Black" font-size="72" fill="#00BFA5">3</text>
+    <text x="170" y="140" text-anchor="middle" font-family="Arial Black" font-size="22" fill="#FFFFFF">步走</text>
+    <text x="170" y="175" text-anchor="middle" font-family="Calibri Light" font-size="14" fill="#B0B0C0">设计 class</text>
+    <text x="170" y="198" text-anchor="middle" font-family="Calibri Light" font-size="14" fill="#B0B0C0">创建对象</text>
+    <text x="170" y="221" text-anchor="middle" font-family="Calibri Light" font-size="14" fill="#B0B0C0">对象干活</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(470,140)">
+    <rect x="0" y="0" width="340" height="280" rx="8" fill="#252540"/>
+    <text x="170" y="90" text-anchor="middle" font-family="Arial Black" font-size="72" fill="#448AFF">4</text>
+    <text x="170" y="140" text-anchor="middle" font-family="Arial Black" font-size="22" fill="#FFFFFF">个魔法方法</text>
+    <text x="170" y="175" text-anchor="middle" font-family="Calibri Light" font-size="14" fill="#B0B0C0">__init__ · 构造</text>
+    <text x="170" y="198" text-anchor="middle" font-family="Calibri Light" font-size="14" fill="#B0B0C0">__str__ · 字符串</text>
+    <text x="170" y="221" text-anchor="middle" font-family="Calibri Light" font-size="14" fill="#B0B0C0">__eq__ · 比较</text>
+    <text x="170" y="244" text-anchor="middle" font-family="Calibri Light" font-size="14" fill="#B0B0C0">__del__ · 析构</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(860,140)">
+    <rect x="0" y="0" width="340" height="280" rx="8" fill="#252540"/>
+    <text x="170" y="90" text-anchor="middle" font-family="Arial Black" font-size="72" fill="#FF6D00">3</text>
+    <text x="170" y="140" text-anchor="middle" font-family="Arial Black" font-size="22" fill="#FFFFFF">大特征</text>
+    <text x="170" y="175" text-anchor="middle" font-family="Calibri Light" font-size="14" fill="#B0B0C0">封装（私有）</text>
+    <text x="170" y="198" text-anchor="middle" font-family="Calibri Light" font-size="14" fill="#B0B0C0">继承</text>
+    <text x="170" y="221" text-anchor="middle" font-family="Calibri Light" font-size="14" fill="#B0B0C0">多态</text>
+  </g>
+
+  <!-- Next step -->
+  <rect x="250" y="460" width="780" height="55" rx="6" fill="#00BFA5" opacity="0.1"/>
+  <text x="640" y="494" text-anchor="middle" font-family="Calibri Light" font-size="18" fill="#00BFA5">下一步：继承与多态，让对象更有层次</text>
+
+  <!-- Thank you bar -->
+  <rect x="0" y="630" width="1280" height="90" fill="#00BFA5"/>
+  <text x="640" y="687" text-anchor="middle" font-family="Arial Black" font-size="48" fill="#1A1A2E">谢谢大家！</text>
+</svg>

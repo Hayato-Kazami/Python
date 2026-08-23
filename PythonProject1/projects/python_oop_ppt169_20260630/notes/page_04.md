@@ -1,0 +1,1 @@
+self是什么？简单说：哪个对象调用方法，self就指向谁。stu1调用sleep，self就是王丽红；stu2调用sleep，self就是周杰轮。同一个方法，不同数据。

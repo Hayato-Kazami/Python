@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#1A1A2E" />
+  
+  <text x="50" y="60" font-family="Arial Black" font-size="34" fill="#FFFFFF" font-weight="bold">面向对象三步走</text>
+  <text x="50" y="95" font-family="Calibri Light" font-size="15" fill="#B0B0C0">核心流程：设计 → 创建 → 使用</text>
+
+  
+  <g transform="translate(50,130)">
+    
+    <path fill="#252540" d="M8,0 H362 A8,8 0 0 1 370,8 V492 A8,8 0 0 1 362,500 H8 A8,8 0 0 1 0,492 V8 A8,8 0 0 1 8,0 Z" />
+    <circle cx="185" cy="55" r="40" fill="#448AFF" />
+    <text x="185" y="68" text-anchor="middle" font-family="Arial Black" font-size="28" fill="#FFFFFF">1</text>
+    <text x="185" y="135" text-anchor="middle" font-family="Arial Black" font-size="22" fill="#FFFFFF">设计 class</text>
+    <text x="185" y="165" text-anchor="middle" font-family="Calibri Light" font-size="13" fill="#B0B0C0">用 class 关键字定义蓝图</text>
+    <text x="185" y="188" text-anchor="middle" font-family="Calibri Light" font-size="13" fill="#B0B0C0">封装属性 + 行为</text>
+    
+    <path fill="#141428" d="M29,220 H341 A4,4 0 0 1 345,224 V336 A4,4 0 0 1 341,340 H29 A4,4 0 0 1 25,336 V224 A4,4 0 0 1 29,220 Z" />
+    <text x="40" y="245" font-family="Consolas" font-size="13" fill="#448AFF">class Dog:</text>
+    <text x="55" y="268" font-family="Consolas" font-size="13" fill="#B0B0C0">name = "豆包"</text>
+    <text x="55" y="291" font-family="Consolas" font-size="13" fill="#B0B0C0">def eat(self):</text>
+    <text x="70" y="314" font-family="Consolas" font-size="13" fill="#B0B0C0">print("吃饭了")</text>
+    
+    <circle cx="185" cy="380" r="35" fill="#448AFF" opacity="0.1" />
+    <text x="185" y="393" text-anchor="middle" font-family="Calibri" font-size="30" fill="#448AFF">📋</text>
+    <text x="185" y="435" text-anchor="middle" font-family="Calibri Light" font-size="12" fill="#666680">蓝图 / 模板</text>
+  </g>
+
+  
+  <text x="435" y="380" font-family="Calibri" font-size="28" fill="#00BFA5">→</text>
+
+  <g transform="translate(455,130)">
+    
+    <path fill="#252540" d="M8,0 H362 A8,8 0 0 1 370,8 V492 A8,8 0 0 1 362,500 H8 A8,8 0 0 1 0,492 V8 A8,8 0 0 1 8,0 Z" />
+    <circle cx="185" cy="55" r="40" fill="#FF6D00" />
+    <text x="185" y="68" text-anchor="middle" font-family="Arial Black" font-size="28" fill="#FFFFFF">2</text>
+    <text x="185" y="135" text-anchor="middle" font-family="Arial Black" font-size="22" fill="#FFFFFF">创建 对象</text>
+    <text x="185" y="165" text-anchor="middle" font-family="Calibri Light" font-size="13" fill="#B0B0C0">基于 class 产出实体</text>
+    <text x="185" y="188" text-anchor="middle" font-family="Calibri Light" font-size="13" fill="#B0B0C0">一个设计 → 多个对象</text>
+    
+    <path fill="#141428" d="M29,220 H341 A4,4 0 0 1 345,224 V336 A4,4 0 0 1 341,340 H29 A4,4 0 0 1 25,336 V224 A4,4 0 0 1 29,220 Z" />
+    <text x="40" y="245" font-family="Consolas" font-size="13" fill="#FF6D00">dog1 = Dog()</text>
+    <text x="40" y="268" font-family="Consolas" font-size="13" fill="#B0B0C0">dog2 = Dog()</text>
+    <text x="40" y="291" font-family="Consolas" font-size="13" fill="#B0B0C0">dog3 = Dog()</text>
+    <text x="40" y="314" font-family="Consolas" font-size="13" fill="#666680"># 一个蓝图，多个实例</text>
+    
+    <circle cx="185" cy="380" r="35" fill="#FF6D00" opacity="0.1" />
+    <text x="185" y="393" text-anchor="middle" font-family="Calibri" font-size="30" fill="#FF6D00">🐕</text>
+    <text x="185" y="435" text-anchor="middle" font-family="Calibri Light" font-size="12" fill="#666680">多个实例</text>
+  </g>
+
+  
+  <text x="840" y="380" font-family="Calibri" font-size="28" fill="#00BFA5">→</text>
+
+  <g transform="translate(860,130)">
+    
+    <path fill="#252540" d="M8,0 H362 A8,8 0 0 1 370,8 V492 A8,8 0 0 1 362,500 H8 A8,8 0 0 1 0,492 V8 A8,8 0 0 1 8,0 Z" />
+    <circle cx="185" cy="55" r="40" fill="#00BFA5" />
+    <text x="185" y="68" text-anchor="middle" font-family="Arial Black" font-size="28" fill="#FFFFFF">3</text>
+    <text x="185" y="135" text-anchor="middle" font-family="Arial Black" font-size="22" fill="#FFFFFF">对象 干活</text>
+    <text x="185" y="165" text-anchor="middle" font-family="Calibri Light" font-size="13" fill="#B0B0C0">访问属性 / 调用方法</text>
+    <text x="185" y="188" text-anchor="middle" font-family="Calibri Light" font-size="13" fill="#B0B0C0">让对象去执行任务</text>
+    
+    <path fill="#141428" d="M29,220 H341 A4,4 0 0 1 345,224 V336 A4,4 0 0 1 341,340 H29 A4,4 0 0 1 25,336 V224 A4,4 0 0 1 29,220 Z" />
+    <text x="40" y="245" font-family="Consolas" font-size="13" fill="#00BFA5">dog1.eat()</text>
+    <text x="40" y="268" font-family="Consolas" font-size="13" fill="#B0B0C0">dog1.name</text>
+    <text x="40" y="291" font-family="Consolas" font-size="13" fill="#B0B0C0">dog1.age = 3</text>
+    <text x="40" y="314" font-family="Consolas" font-size="13" fill="#666680"># 对象.属性 / 对象.方法()</text>
+    
+    <circle cx="185" cy="380" r="35" fill="#00BFA5" opacity="0.1" />
+    <text x="185" y="393" text-anchor="middle" font-family="Calibri" font-size="30" fill="#00BFA5">▶️</text>
+    <text x="185" y="435" text-anchor="middle" font-family="Calibri Light" font-size="12" fill="#666680">执行任务</text>
+  </g>
+
+  
+  <text x="50" y="695" font-family="Calibri Light" font-size="11" fill="#666680">OOP 三步走  |  设计 class → 创建对象 → 对象干活</text>
+</svg>

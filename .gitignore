@@ -1,0 +1,34 @@
+# 依赖与缓存
+.npm-cache/
+__pycache__/
+*.pyc
+
+# IDE 配置
+.idea/
+
+# 临时文件
+tempCodeRunnerFile.*
+
+# 编译产物
+*.exe
+
+# 模型与数据（大文件）
+model/
+models/
+modles/
+data/
+dataset/
+public-notes-clone/
+
+# 模型 / 序列化文件
+*.bin
+*.pkl
+
+# 压缩包 / 电子书
+*.tgz
+*.tar
+book.*
+
+# 第三方 widget（含嵌套 .git）
+package/
+DeepSeek-Balance-Whale-Widget/
