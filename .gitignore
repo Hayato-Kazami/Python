@@ -35,6 +35,9 @@ book.*
 package/
 DeepSeek-Balance-Whale-Widget/
 
+# 独立建仓的子项目（danmaku_bert 已 git init 独立管理，避免双重跟踪）
+danmaku_bert/
+
 # 其他文件
 *.csv
 *.txt
