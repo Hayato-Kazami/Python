@@ -1,0 +1,10 @@
+serverAddr = "47.116.49.170"    # ← 关键，改这里
+serverPort = 7000
+auth.token = "f17c5204d7514ebc27c55ab5398870e2"
+
+[[proxies]]
+name = "streamlit"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 8501
+remotePort = 8501

@@ -1,0 +1,11 @@
+# ===== frp 客户端配置（放在你本地 Windows 上）=====
+serverAddr = "VPS公网IP"    # 改成你 VPS 的真实公网 IP，例如 "47.98.123.45"
+serverPort = 7000
+auth.token = "f17c5204d7514ebc27c55ab5398870e2"
+
+[[proxies]]
+name = "streamlit"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 8501        # 转发本地的 Streamlit
+remotePort = 8501       # 映射到 VPS 的 8501 端口

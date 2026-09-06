@@ -12,13 +12,15 @@ tempCodeRunnerFile.*
 # 编译产物
 *.exe
 
-# 模型与数据（大文件）
+# 模型与数据（大文件）&爬虫文件
+Scraping/
 model/
 models/
 modles/
 data/
 dataset/
 public-notes-clone/
+PythonProject4/TMF/bert/bert-base-chinese
 
 # 模型 / 序列化文件
 *.bin
@@ -32,3 +34,15 @@ book.*
 # 第三方 widget（含嵌套 .git）
 package/
 DeepSeek-Balance-Whale-Widget/
+
+# 其他文件
+*.csv
+*.txt
+*.jpg
+*.png
+
+# 编辑器 / 系统
+.vscode/
+Py/
+Test/
+.claude/
