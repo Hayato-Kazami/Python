@@ -1,5 +1,4 @@
 # 依赖与缓存
-.npm-cache/
 __pycache__/
 *.pyc
 
@@ -12,14 +11,9 @@ tempCodeRunnerFile.*
 # 编译产物
 *.exe
 
-# 模型与数据（大文件）&爬虫文件
-Scraping/
+# 模型与数据（大文件）
 model/
-models/
-modles/
 data/
-dataset/
-public-notes-clone/
 PythonProject4/TMF/bert/bert-base-chinese
 
 # 模型 / 序列化文件
@@ -31,14 +25,6 @@ PythonProject4/TMF/bert/bert-base-chinese
 *.tar
 book.*
 
-# 第三方 widget（含嵌套 .git）
-package/
-DeepSeek-Balance-Whale-Widget/
-
-# 独立建仓的子项目（各自 git init 独立管理，避免双重跟踪）
-danmaku_bert/
-Leetcode/
-
 # 其他文件
 *.csv
 *.txt
@@ -46,7 +32,4 @@ Leetcode/
 *.png
 
 # 编辑器 / 系统
-.vscode/
-Py/
-Test/
 .claude/
